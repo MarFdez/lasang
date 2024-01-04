@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Garfield;
+    local: ("Garfield-the-cat");
+    src: url(./fonts/GARFIELD\ the\ CAT.ttf);
+}
+
+body {
+    background: linear-gradient(#fdce00, #f9a300, #f35301);
+  }
+
+.csoon {
+display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  font-family: Garfield;
+  font-size: 6vw;
+  letter-spacing: -5px;
+  text-shadow: 2.5px 1.5px black;
+  color: #ee373e;
+  -webkit-text-stroke-width: 0.1px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    font-size: 2vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    font-size: 1.5vw;
+  }
+}

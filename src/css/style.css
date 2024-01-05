@@ -1,15 +1,15 @@
 @font-face {
-    font-family: Garfield;
-    local: ("Garfield-the-cat");
-    src: url(./fonts/GARFIELD\ the\ CAT.ttf);
+  font-family: Garfield;
+  local: ("Garfield-the-cat");
+  src: url(./fonts/GARFIELD\ the\ CAT.ttf);
 }
 
 body {
-    background: linear-gradient(#fdce00, #f9a300, #f35301);
-  }
+  background: linear-gradient(#fdce00, #f9a300, #f35301);
+}
 
 .csoon {
-display: grid;
+  display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -23,13 +23,13 @@ display: grid;
 }
 
 @media (min-width: 768px) {
-  .container {
-    font-size: 2vw;
-  }
+.container {
+  font-size: 2vw;
+}
 }
 
 @media (min-width: 1024px) {
-  .container {
-    font-size: 1.5vw;
-  }
+.container {
+  font-size: 1.5vw;
+}
 }
